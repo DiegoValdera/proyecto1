@@ -1,0 +1,149 @@
+/*IMPORTANDO FUENTE REBOTO*/
+@font-face{
+    font-family: Diego;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+/*CUERPO*/
+body{
+    font-family: Diego;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+/* HEADER*/
+header{
+    background-color: #00AAB5 ;
+    font-family: Diego;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-top: 30px;
+}
+header h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+/*SECCIONES*/
+section h2{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* BARRA DE NAVEGACION*/
+nav li{
+    display: inline;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 1px 10px 1px;
+    padding: 15px;
+    display: inline-block;
+    font-size: 14px;
+}
+nav a:hover{
+    background-color: brown;
+    border-radius: 10px;
+}
+
+/*BANNER*/
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner div{
+    position:absolute;
+    color: #fff;
+}   
+.banner .codigo{
+    font-weight: bold;
+    font-size: 64px;
+    top: 8%;
+    left: 45%;
+}
+.banner .nombre{
+    background-color: rgba(114, 153, 254, 0.5);
+    width: 300px ;
+    height: 80px;
+    font-size: 36px ;
+    padding: 20px;
+    bottom: 95px;
+    left: 80px;
+}
+
+/*SKILLS*/
+/*margenes*/
+.skills .margin{
+    margin: 10px;
+}
+.skills{
+    background-color: #7299FE ;
+    margin-top: 0;
+    height: auto;
+    padding-bottom: 50px;
+}
+/*SKILLS TITULO*/
+.skills h2{
+    color: #B508A3;
+}
+.containerSK{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.skills .html{
+    display: flex;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.skills .black{
+    width: 80%;
+    height: 18px;
+    background-color: #000;
+}
+.skills .white{
+    width: 20%;
+    height: 18px;
+    background-color: #fff;
+}
+
+/*SERVICIOS*/
+.servicios{
+    background-color: #FB7171 ;
+    margin-top: 0;
+}
+.servicios h2{
+    color: #00CC9B;
+}
+
+/*PORTAFOLIO*/
+.portafolio{
+    background-color: #FFD233 ;
+    margin-top: 0;
+}
+
+/*CLIENTES*/
+.clientes{
+    background-color: #3F4E62 ;
+    margin-top: 0;
+}
+
+/*CONTACTO*/
+.contacto{
+    background-color: #16A085 ;
+    margin-top: 0;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #00AAB5;
+}
